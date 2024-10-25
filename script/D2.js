@@ -58,11 +58,12 @@ console.log('Il totale è di €' + total)
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-let DiscountedTotal = (totalShoppingCart * 80) / 100
-if (DiscountedTotal >= 50) {
-  total = DiscountedTotal
+let discountedTotal = (totalShoppingCart * 80) / 100
+
+if (discountedTotal >= 50) {
+  total = discountedTotal
 } else {
-  total = DiscountedTotal + 10
+  total = discountedTotal + 10
 }
 console.log('Il totale è di €' + total)
 
@@ -160,7 +161,7 @@ console.log(me)
 */
 const numbers = []
 
-/* METODO BELLO
+/*METODO BELLO
 for (let i = 0; i < 10; i++) {
   numbers[i] = i + 1
 }
